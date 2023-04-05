@@ -16,7 +16,7 @@ Consolidated report on nuget packages for a project/solution
 - Input: Solution directory Path with projects as subfolders
 - Get list of .csproj files with path
 - Categorize .csproj into using ProjectReference and PackageConfig categories
-- Use dotnet list command options to get nuget info for projects using <ProjectReference>
+- Use dotnet list command options to get nuget info for projects using ProjectReference tag
 - Use nuget cli command options to get nuget info for projects using packages.config
 - Consolidate into a unified report
 
