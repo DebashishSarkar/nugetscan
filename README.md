@@ -12,8 +12,9 @@ Consolidated report on nuget packages for a project/solution
 - JSON
 - CSV
 
-### Underlying approach
-- Use dotnet list command options to get nuget info
+### Approach
+- Use dotnet list command options to get nuget info for projects using <ProjectReference>
+- Use nuget cli command options to get nuget info for projects using packages.config
 - Consolidate into a unified report
 
 ### How to run?
