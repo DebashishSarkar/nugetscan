@@ -1,2 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace nugetscan
+{
+    class Program
+    {
+        public static void Main(string[] args)
+        {
+            NugetInfoGatherer nugethelper = new NugetInfoGatherer();
+            nugethelper.GetLatestNugetInfo();
+        }
+    }
+}
